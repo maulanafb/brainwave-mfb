@@ -45,7 +45,7 @@ const Benefits = () => {
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
-                      alt="image url"
+                      alt="imageURl"
                       width={362}
                       height={362}
                       className="w-full h-full object-cover"
