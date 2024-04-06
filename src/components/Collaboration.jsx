@@ -3,6 +3,7 @@ import Section from "./Section";
 import { collabApps, collabContent, collabText } from "../constants";
 import { brainwaveSymbol, check } from "../assets";
 import Button from "./Button";
+import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
@@ -68,6 +69,8 @@ const Collaboration = () => {
                 </li>
               ))}
             </ul>
+            <LeftCurve />
+            <RightCurve />
           </div>
         </div>
       </div>
